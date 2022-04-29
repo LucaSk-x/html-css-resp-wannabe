@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 450px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .row .col{
+        width: unset;
+    }
+
+    .steps {
+        margin: unset;
+        padding: 3rem 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding: 3rem 0;
+        margin: unset;
+    }
+
+}
